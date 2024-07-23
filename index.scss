@@ -5,7 +5,7 @@ body{
     flex-wrap: wrap;
     // font-size: 40px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:sans-serif;
     margin:0;
     height: 100vh;
     background-color: rgb(226, 228, 220);
@@ -26,10 +26,11 @@ h1{
 }
 
 .dev{
+    font-size: 17px;
     border-radius: 20px;
     width:460px;
     height: 39px;
-    border:1px solid black;
+    border:none;
     // to start typing after the search symbol
     padding-left: 40px; 
     // used when you want the width and height of elements to include padding and borders.
@@ -39,12 +40,13 @@ h1{
 
 .fa-magnifying-glass {
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 15px;
-    transform: translateY(-50%);
+    // transform: translateY(-50%);
     color: gray; 
     font-size: 17px; 
 }
+
 .other{
     width:130px;
     height: 33px;
@@ -58,4 +60,28 @@ h1{
 .other:hover{
     border: 1px solid;
     border-color: rgb(51, 50, 50);
+}
+
+.colorG1{
+    color:rgb(39, 94, 214);
+}
+.colorO1{
+    color:rgb(228, 7, 7);
+}
+.colorO2{
+    color:rgb(228, 228, 4);
+}
+.colorG2{
+    color:rgb(39, 94, 214)
+}
+.colorL{
+    color:rgb(10, 189, 10)
+}
+.colorE{
+    position:absolute;
+    // transform: translateY(-50%);
+    transform: rotateX(100%);
+    transform: rotateZ('50%');
+
+    color:rgb(228, 7, 7);
 }
