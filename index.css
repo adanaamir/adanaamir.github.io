@@ -79,8 +79,5 @@ h1 {
 }
 
 .colorE {
-  position: absolute;
-  transform: rotateX(100%);
-  transform: rotateZ("50%");
   color: rgb(228, 7, 7);
 }/*# sourceMappingURL=index.css.map */
