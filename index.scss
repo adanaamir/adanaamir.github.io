@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin:0;
+    height: 60vh;
+}
+
+
+
+h1{
+    padding: 60px;
+    margin: 50px;
+    height:1px;
+}
+
+.dev{
+    // box-shadow: 0 0 20px rgb(119, 59, 59);
+    border-radius: 20px;
+    width:460px;
+    height: 39px;
+    border:1px solid black;
+}
+
+.other{
+    width:130px;
+    height: 33px;
+    border:none;
+}

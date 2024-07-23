@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-            My Site!
-        </title>
+        <title>Search</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>This is my Github pages Website!</h1>
+        <div>
+            <div>
+            <h1>Google</h1>
+            <!-- the action attribute on the form told the browser that when the form is submitted, the data should be sent 
+            to https://www.google.com/search. And by adding an input field to the form whose name attribute was q, whatever
+            the user types into that input field is included as a GET parameter in the URL. -->
+            <form action="https://www.google.com/search">
+            </div>
+                <div>
+                    <input type="text" class="dev" name="q">
+                    <p>
+                    <input type="submit" class="other" value="Google Search">
+                    <button type="submit" class="other">I'm Feeling Lucky</button>
+                    </p>
+                </div>
+            </form>
+        </div>
     </body>
 </html>
