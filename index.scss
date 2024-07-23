@@ -3,30 +3,88 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    align-items: center;
-    font-size: 40px;
+    // font-size: 40px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:sans-serif;
     margin:0;
-    height: 60vh;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+}
+
+header{
+    margin-bottom: 20px;
 }
 
 h1{
-    padding: 60px;
-    margin: 50px;
-    height:1px;
+    caret-color:transparent;
+    cursor:auto;
+    font-size: 83px;
+    margin: 0px;
 }
 
-.dev{
-    // box-shadow: 0 0 20px rgb(119, 59, 59);
+.search-container{
+    position:relative;
+    display:inline-block;
+}
+
+.bar{
+    font-size: 17px;
     border-radius: 20px;
+    text-wrap: wrap;
     width:460px;
-    height: 39px;
-    border:1px solid black;
+    height: 42px;
+    border:none;
+    // to start typing after the search symbol
+    padding-left: 40px; 
+    // used when you want the width and height of elements to include padding and borders.
+    /* Ensures padding is included in width */
+    box-sizing: border-box; 
+}
+
+.bar:hover{
+    background-color: rgb(196, 199, 198);
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 33%;
+    left: 15px;
+    // transform: translateY(-50%);
+    color: gray; 
+    font-size: 17px; 
 }
 
 .other{
     width:130px;
-    height: 33px;
+    height: 37px;
     border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    // background-color:rgb(248, 242, 242);
+    margin: 4px;
+    margin-top: 14px;
+}
+
+.other:hover{
+    border: 1px solid;
+    border-color: rgb(51, 50, 50);
+}
+
+.colorG1{
+    color:rgb(39, 94, 214);
+}
+.colorO1{
+    color:rgb(228, 7, 7);
+}
+.colorO2{
+    color:rgb(228, 228, 4);
+}
+.colorG2{
+    color:rgb(39, 94, 214)
+}
+.colorL{
+    color:rgb(10, 189, 10)
+}
+.colorE{
+    color:rgb(228, 7, 7);
 }

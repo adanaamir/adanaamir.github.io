@@ -3,24 +3,28 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     </head>
     <body>
         <div>
             <div>
                 <header>
-                    <h1>Google</h1>
+                    <h1><span class="colorG1">G</span><span class="colorO1">o</span><span class="colorO2">o</span><span class="colorG2">g</span><span class="colorL">l</span><span class="colorE">e</span> </h1>
                 </header>
             <!-- the action attribute on the form told the browser that when the form is submitted, the data should be sent 
             to https://www.google.com/search. And by adding an input field to the form whose name attribute was q, whatever
             the user types into that input field is included as a GET parameter in the URL. -->
                 <form action="https://www.google.com/search">
             </div>
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" class="bar" name="q">
+                </div>
+                <p>
                 <div>
-                    <input type="text" class="dev" name="q">
-                    <p>
                     <input type="submit" class="other" value="Google Search">
                     <button type="submit" class="other">I'm Feeling Lucky</button>
-                    </p>
+                </p>
                 </div>
             </form>
         </div>
