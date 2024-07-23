@@ -1,6 +1,6 @@
 body{
     display:flex;
-    justify-content: center;
+    justify-content: column;
     flex-wrap: wrap;
     align-items: center;
     font-size: 40px;
@@ -9,8 +9,6 @@ body{
     margin:0;
     height: 60vh;
 }
-
-
 
 h1{
     padding: 60px;
