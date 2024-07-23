@@ -1,6 +1,6 @@
 body {
   display: flex;
-  justify-content: column;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   font-size: 40px;
