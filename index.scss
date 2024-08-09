@@ -54,14 +54,17 @@ h1{
     font-size: 17px; 
 }
 
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .other{
     width:130px;
     height: 37px;
     border:none;
     border-radius: 4px;
     cursor:pointer;
-    // background-color:rgb(248, 242, 242);
-    margin: 4px;
     margin-top: 14px;
 }
 

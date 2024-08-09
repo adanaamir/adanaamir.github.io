@@ -1,3 +1,6 @@
+<!-- the action attribute on the form told the browser that when the form is submitted, the data should be sent 
+to https://www.google.com/search. And by adding an input field to the form whose name attribute was q, whatever
+the user types into that input field is included as a GET parameter in the URL. -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,33 +10,29 @@
     </head>
     <body>
         <div>
-            <div>
-                <header>
-                    <h1><span class="colorG1">G</span><span class="colorO1">o</span><span class="colorO2">o</span><span class="colorG2">g</span><span class="colorL">l</span><span class="colorE">e</span> </h1>
-                </header>
-            <!-- the action attribute on the form told the browser that when the form is submitted, the data should be sent 
-            to https://www.google.com/search. And by adding an input field to the form whose name attribute was q, whatever
-            the user types into that input field is included as a GET parameter in the URL. -->
-                <form action="https://www.google.com/search">
-                
-            </div>
+            <header>
+                <h1><span class="colorG1">G</span><span class="colorO1">o</span><span class="colorO2">o</span><span class="colorG2">g</span><span class="colorL">l</span><span class="colorE">e</span> </h1>
+            </header>
                 <div class="search-container">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" class="bar" name="q">
+                        <input type="text" class="bar" name="q">
                 </div>
+                <!-- links to image and advance search -->
                 <div class="page">
                     <a href="advance.html" class="link">Advance Search</a>
                     <a href="image.html" class="link">Image Search</a>
                 </div>
                 <p>
-                <div>
-                    <input type="submit" class="other" value="Google Search">
+                    <!-- The submit blocks -->
+                <div class="button-container">
+                    <form action="https://www.google.com/search">
+                        <input type="submit" class="other" value="Google Search">
                 </p>
-                </div>
             </form>
                 <form action="https://doodles.google/">
                     <button type="submit" class="other">I'm Feeling Lucky</button>
                 </form>
+            </div>
         </div>
     </body>
 </html>
